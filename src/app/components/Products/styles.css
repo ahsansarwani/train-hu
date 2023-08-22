@@ -1,0 +1,46 @@
+.wrapper-txt-gradient {
+    position: relative;
+}
+
+.wrapper-txt-gradient h2 span::before {
+    content: '';
+    background-color: #26C12E;
+    height: 100%;
+    width: 7px;
+    position: absolute;
+    top: 0;
+    padding-right: 2px;
+    border-radius: 12px;
+}
+
+.txt-success {
+    color: #11B264;
+}
+
+.txt-success img {
+    filter: brightness(0) saturate(100%) invert(51%) sepia(85%) saturate(2367%) hue-rotate(116deg) brightness(94%) contrast(87%);
+}
+
+.rec.rec-arrow-left, .rec.rec-arrow-right, .rec.rec-pagination {
+    display: none;
+} 
+
+.product-item {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product-item .price {
+    margin-top: 15px;
+}
+
+.product-item .price h4 {
+    color: #F55726;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.product-item .price span {
+    color: #AAAAAA;
+}

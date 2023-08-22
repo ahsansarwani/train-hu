@@ -1,0 +1,15 @@
+img.post-img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 205px;
+    object-fit: cover;
+}
+
+.post-description {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.post-item {
+    margin-bottom: 10px;
+}

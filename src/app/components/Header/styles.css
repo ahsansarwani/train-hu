@@ -1,0 +1,21 @@
+.btm-minus {
+    margin-bottom: -81px;
+    z-index: 1;
+    position: relative;
+}
+img.person-avatar {
+    border-radius: 50px;
+    width: 65px;
+    height: 65px;
+}
+
+input.form-control .input-cs {
+    border-radius: 25px;
+}
+
+button.submit {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    color: #11B264;
+}

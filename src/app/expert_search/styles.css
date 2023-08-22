@@ -1,0 +1,18 @@
+.expert-item {
+    border-radius: 12px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,0.6027004551820728) 100%);
+    margin-bottom: 15px;
+}
+.img-expert img {
+    max-width: 90px;
+    border-radius: 50%;
+}
+
+.expert-title h3 {
+    font-size: 22px;
+}
+
+.expertise ul li span {
+    color: #86909C;
+}

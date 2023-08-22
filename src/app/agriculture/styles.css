@@ -1,0 +1,41 @@
+.btm-min {
+    margin-bottom: -64px;
+    z-index: 10;
+    position: relative;
+    background-color: #ffffff14;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.carousel-indicators button {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    width: 26px !important;
+    height: 10px !important;
+    border-radius: 47% !important;
+}
+
+.agriculture .carousel-caption {
+    text-align: start;
+}
+
+.agriculture .iconbox-img {
+    display: inline-flex;
+    background-color: #11B264;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.agriculture .iconbox-img img {
+    max-width: 60px;
+    max-height: 60px;
+}

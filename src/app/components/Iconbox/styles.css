@@ -1,0 +1,46 @@
+.wrapper-icon-bx {
+    margin-top: -14px;
+    background-color: var(--primary-bg-color);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+.iconbox_1 .img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 120px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,214,113,1) 0%, rgba(62,194,69,1) 100%);
+    border-radius: 15px;
+}
+
+.iconbox_2 .img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 120px;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,217,148,1) 0%, rgba(6,188,115,1) 100%);
+}
+
+.iconbox_3 .img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 120px;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,175,255,1) 0%, rgba(0,130,255,1) 100%);
+}
+
+.iconbox_4 .img-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 120px;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,173,91,1) 0%, rgba(255,128,0,1) 100%);
+}
+

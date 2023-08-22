@@ -1,0 +1,15 @@
+.carousel-caption {
+    top: 50%;
+}
+
+.carousel-indicators button {
+    border-radius: 50% !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators button.active {
+    width: 26px !important;
+    height: 10px !important;
+    border-radius: 47% !important;
+}

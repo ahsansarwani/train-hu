@@ -1,0 +1,47 @@
+.technology-wrapper .color-dark-arrow {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(6086%) hue-rotate(209deg) brightness(95%) contrast(105%);
+}
+
+.technology-wrapper .header-wrapper-achievement {
+    border-bottom: 1px solid #F7F8FA;
+}
+
+.btn-custom-group .active-btn::before {
+    content: '';
+    background-color: #11B264;
+    height: 5px;
+    width: 30px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -10px;
+    left: 46%;
+    right: 0;
+}
+
+.btn-custom-group .active-btn {
+    color: #11B264;
+}
+
+.border-btm-thin {
+    border-bottom: 1px solid #F7F8FA;
+}
+
+.svg-search-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.search_field button.btn {
+    position: absolute;
+    top: 5px;
+}
+
+.search_field input {
+    background-color: #F2F3F5;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.space-img img {
+    max-width: 170px;
+}
