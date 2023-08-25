@@ -7,9 +7,3 @@
     width: 10px !important;
     height: 10px !important;
 }
-
-.carousel-indicators button.active {
-    width: 26px !important;
-    height: 10px !important;
-    border-radius: 47% !important;
-}

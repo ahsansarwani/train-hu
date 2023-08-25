@@ -7,10 +7,12 @@ function expert_search() {
         <div className="header-wrapper-achievement bg-white py-3">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-lg-6 d-flex justify-content-between pe-0">
+              <div className="col-5 d-flex justify-content-between pe-0">
                 <a className="color-dark-arrow" href="#">
                   <img src="/images/chevron-left.svg" alt="" />
                 </a>
+              </div>
+              <div className="col-7 ps-0">
                 <h4 className="mb-0">关键字</h4>
               </div>
             </div>

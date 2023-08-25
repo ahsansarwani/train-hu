@@ -5,8 +5,9 @@
 }
 img.person-avatar {
     border-radius: 50px;
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #fff;
 }
 
 input.form-control .input-cs {

@@ -1,0 +1,74 @@
+body {
+    background-color: #F7F8FA;
+}
+
+.banner-ach {
+    background-image: url('/images/banner-ach.png');
+    background-color: unset;
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.person-img-ach {
+    border-radius: 50%;
+    max-width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.verify-img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.verify-badge {
+    padding: 6px 12px;
+    background-color: rgb(0 0 0 / 30%);
+    border-radius: 20px;
+}
+
+.plus-green-btn-wrapper {
+    color: #11B264;
+}
+
+.plus-green-btn-wrapper div {
+    padding: 6px 12px;
+    background-color: #fff;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.plus-green-btn-wrapper img {
+    max-width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.list-items li span:first-child {
+    width: 82%;
+}
+
+.list-items li span:last-child {
+    color: #86909C;
+}
+
+.list-items li {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #E5E6EB;
+}
+
+.btn-component-fixed-btm {
+    bottom: 0;
+}
+
+.btn-primary {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 237, 122, 1) 0%, rgba(17, 178, 100, 1) 100%);
+}

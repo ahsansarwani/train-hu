@@ -44,3 +44,17 @@
 .product-item .price span {
     color: #AAAAAA;
 }
+
+@media (max-width: 767px) {
+    .product-item img {
+        width: 100%;
+    }
+
+    .product-item-txt h3 {
+        font-size: 13px;
+    }
+
+    .product-item-txt .price h4, .product-item-txt .price del {
+        font-size: 13px;
+    }
+}

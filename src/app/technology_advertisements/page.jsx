@@ -4,19 +4,21 @@ function technology_advertisements() {
   return (
     <div className="technology-wrapper">
       <div className="header-wrapper-achievement bg-white py-3">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 d-flex justify-content-between">
+            <div className="col-4 d-flex justify-content-between">
               <a className="color-dark-arrow" href="#">
                 <img src="/images/chevron-left.svg" alt="" />
               </a>
+            </div>
+            <div className="col-8">
               <h4 className="mb-0">成果转化</h4>
             </div>
           </div>
         </div>
       </div>
       <div className="border-btm-thin bg-white pt-3 pb-2">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12">
               <div className="btn-custom-group btn-group  gap-5 justify-content-center d-flex">
@@ -56,7 +58,7 @@ function technology_advertisements() {
 
       <div className="container-fluid mt-4">
         <div className="row">
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-1.png" alt="" />
               <div className="post-description p-3 bg-white">
@@ -68,7 +70,7 @@ function technology_advertisements() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-2.png" alt="" />
               <div className="post-description p-3 bg-white">
@@ -80,7 +82,7 @@ function technology_advertisements() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-3.png" alt="" />
               <div className="post-description p-3 bg-white">
@@ -92,7 +94,7 @@ function technology_advertisements() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-4.png" alt="" />
               <div className="post-description p-3 bg-white">
@@ -104,7 +106,7 @@ function technology_advertisements() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-5.png" alt="" />
               <div className="post-description p-3 bg-white">
@@ -116,7 +118,7 @@ function technology_advertisements() {
               </div>
             </div>
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-6">
             <div className="post-item">
               <img className="post-img w-100" src="/images/post-6.png" alt="" />
               <div className="post-description p-3 bg-white">

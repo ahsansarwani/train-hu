@@ -2,17 +2,6 @@
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(6086%) hue-rotate(209deg) brightness(95%) contrast(105%);
 }
 
-.banner-achievement {
-    background-color: #11B264;
-    background-image: url('/images/dim-search-img.png');
-    background-repeat: no-repeat;
-    background-position-x: 70%;
-    background-size: 30%;
-}
-
-.banner-achievement .img-search {
-    max-width: 100px;
-}
 
 
 .list-items li span:first-child {

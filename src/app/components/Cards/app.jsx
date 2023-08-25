@@ -2,16 +2,16 @@ import "./styles.css";
 
 function Cards() {
   return (
-    <div className="container py-5">
+    <div className="container-fluid py-5">
       <div className="row">
-        <div className="col-sm-10 col-lg-8">
+        <div className="col-9">
           <div className="btn-custom-group btn-group position-relative">
             <button className="btn active-btn">技术需求</button>
             <button className="btn ">技术需求</button>
             <button className="btn ">技术需求</button>
           </div>
         </div>
-        <div className="col-sm-2 col-lg-4 d-flex justify-content-end align-items-center">
+        <div className="col-3 d-flex justify-content-end align-items-center">
           <a
             className="text-decoration-none txt-success d-flex align-items-center gap-2 fs-5"
             href="#"
@@ -22,7 +22,7 @@ function Cards() {
       </div>
       <div className="row mt-4">
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>
@@ -42,7 +42,7 @@ function Cards() {
           </div>
         </div>
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>
@@ -62,7 +62,7 @@ function Cards() {
           </div>
         </div>
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>
@@ -82,7 +82,7 @@ function Cards() {
           </div>
         </div>
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>
@@ -102,7 +102,7 @@ function Cards() {
           </div>
         </div>
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>
@@ -122,7 +122,7 @@ function Cards() {
           </div>
         </div>
         <div className="col-sm-12 col-lg-6">
-          <div className="card-item px-3 py-5">
+          <div className="card-item px-2 py-3">
             <div className="wrapper-card-description">
               <h3>香菇智能化生产技术研究及品种选育</h3>
               <p>

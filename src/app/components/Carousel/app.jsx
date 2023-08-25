@@ -33,7 +33,7 @@ function Carousel() {
               className="d-block w-100"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption mobile-cs">
               <h5 className="fw-bold display-3">更广泛的农业知识传播</h5>
               <p className="fs-3">服务广大农民朋友</p>
             </div>
@@ -44,7 +44,7 @@ function Carousel() {
               className="d-block w-100"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption mobile-cs">
               <h5 className="fw-bold display-3">更广泛的农业知识传播</h5>
               <p className="fs-3">服务广大农民朋友</p>
             </div>
@@ -55,7 +55,7 @@ function Carousel() {
               className="d-block w-100"
               alt="..."
             />
-            <div className="carousel-caption d-none d-md-block">
+            <div className="carousel-caption mobile-cs">
               <h5 className="fw-bold display-3">更广泛的农业知识传播</h5>
               <p className="fs-3">服务广大农民朋友</p>
             </div>

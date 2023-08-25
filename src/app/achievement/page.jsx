@@ -4,24 +4,26 @@ function achievement() {
   return (
     <div className="achievement-wrapper">
       <div className="header-wrapper-achievement bg-white py-3">
-        <div className="container">
+        <div className="container-fluid ">
           <div className="row">
-            <div className="col-lg-6 d-flex justify-content-between">
+            <div className="col-4 d-flex justify-content-between p-0">
               <a className="color-dark-arrow" href="#">
                 <img src="/images/chevron-left.svg" alt="" />
               </a>
+            </div>
+            <div className="col-6">
               <h4 className="mb-0">农科服务</h4>
             </div>
           </div>
         </div>
       </div>
-      <div className="banner-achievement position-relative py-5">
-        <div className="container">
+      <div className="banner-achievement position-relative py-4">
+        <div className="container-fluid">
           <div className="row d-flex align-items-center">
-            <div className="col-sm-6 col-lg-6">
+            <div className="col-6">
               <h2 className="mb-0 text-white">查新</h2>
             </div>
-            <div className="col-sm-6 col-lg-6">
+            <div className="col-6">
               <img
                 className="img-search ms-auto d-flex"
                 src="/images/icon-img-1.png"
@@ -32,7 +34,7 @@ function achievement() {
         </div>
       </div>
       <div className="list-items-wrapper bg-white">
-        <div className="container py-5">
+        <div className="container-fluid py-2">
           <div className="row">
             <div className="col-12">
               <ul className="list-items list-unstyled">
@@ -58,7 +60,7 @@ function achievement() {
           </div>
         </div>
       </div>
-      <div className="service-content py-5">
+      <div className="service-content py-3">
         <div className="container">
           <div className="row">
             <div className="col-12">

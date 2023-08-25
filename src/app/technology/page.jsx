@@ -57,7 +57,7 @@ function technology() {
       <div className="container-fluid">
         <div className="row mt-3">
           <div className="col-sm-12 col-lg-6">
-            <div className="expert-item d-flex gap-3 bg-white rounded-4  p-3 align-items-center justify-content-center">
+            <div className="expert-item d-flex gap-3 bg-white rounded-4 mb-3 p-3 align-items-center justify-content-center">
               <div className="description-expert">
                 <div className="expert-title d-flex justify-content-between">
                   <h3 className="fs-5">
@@ -82,14 +82,14 @@ function technology() {
           </div>
 
           <div className="col-sm-12 col-lg-6">
-            <div className="expert-item d-flex gap-3 bg-white rounded-4  p-3 align-items-center justify-content-center">
-              <div className="description-expert">
+            <div className="expert-item d-flex gap-3 bg-white rounded-4 mb-4 p-3 align-items-center justify-content-center">
+              <div className="description-expert mb-2">
                 <div className="expert-title d-flex justify-content-between">
                   <h3 className="fs-5">
                     西南区农业生产遥感动态监测关键技术研发
                   </h3>
                 </div>
-                <div className="d-flex justify-content-between mt-4">
+                <div className="d-flex justify-content-between">
                   <span className="d-flex gap-2 align-items-center text-secondary">
                     <img src="/images/clock.svg" alt="" />
                     2022-05-23

@@ -1,0 +1,16 @@
+.post-img-search {
+    min-height: 255px;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.icons_head li:nth-child(3n - 1) {
+    padding-left: 10px;
+    border-left: 2px dashed #000;
+}

@@ -4,14 +4,15 @@ function agriculture() {
   return (
     <div className="agriculture">
       <div className="btm-min">
-        <div className="container py-2">
+        <div className="container-fluid py-2">
           <div className="row">
-            <div className="col-lg-6 pe-0">
-              <div className="agriculture-wrapper d-flex justify-content-between text-white">
+            <div className="col-4 pe-0 d-flex align-items-center">
+              <div className="agriculture-wrapper">
                 <img src="/images/chevron-left.svg" alt="" />
-                <h2>农科服务</h2>
               </div>
-              <div className="col-lg-6"></div>
+            </div>
+            <div className="col-8 P-0 ">
+              <h2 className="text-white mb-0">农科服务</h2>
             </div>
           </div>
         </div>
@@ -79,7 +80,7 @@ function agriculture() {
       </div>
       <div className="container py-5">
         <div className="row">
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-1.png" alt="" />
@@ -87,7 +88,7 @@ function agriculture() {
               <h4>查新</h4>
             </div>
           </div>
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-2.png" alt="" />
@@ -95,7 +96,7 @@ function agriculture() {
               <h4>咨询</h4>
             </div>
           </div>
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-3.png" alt="" />
@@ -106,7 +107,7 @@ function agriculture() {
         </div>
 
         <div className="row mt-5">
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-4.png" alt="" />
@@ -114,7 +115,7 @@ function agriculture() {
               <h4>检测</h4>
             </div>
           </div>
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-5.png" alt="" />
@@ -122,7 +123,7 @@ function agriculture() {
               <h4>加工</h4>
             </div>
           </div>
-          <div className="col-sm-4 col-lg-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center">
             <div className="iconbox-cs text-center d-inline-flex flex-column gap-3">
               <div className="iconbox-img">
                 <img src="/images/icon-img-6.png" alt="" />
