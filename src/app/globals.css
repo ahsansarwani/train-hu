@@ -25,6 +25,10 @@ body {
     background-size: 78%;
 }
 
+.search-bar input#search {
+    padding-left: 50px;
+}
+
 .banner-achievement .img-search {
     max-width: 70px;
 }

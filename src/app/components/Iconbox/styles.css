@@ -5,6 +5,15 @@
     border-top-left-radius: 16px;
 }
 
+.iconbox_1, .iconbox_2, .iconbox_3, .iconbox_4 {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .iconbox_1 .img-wrapper {
     display: flex;
     justify-content: center;

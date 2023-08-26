@@ -5,15 +5,17 @@
 
 
 .list-items li span:first-child {
-    width: 82%;
+    width: 30%;
 }
 
 .list-items li span:last-child {
     color: #86909C;
+    font-size: 14px;
+    width: 70%;
 }
 
 .list-items li {
     display: flex;
-    padding: 15px;
+    padding: 15px 10px;
     border-bottom: 1px solid #E5E6EB;
 }

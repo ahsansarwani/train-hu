@@ -1,6 +1,9 @@
 import "./styles.css";
 
 function expert_search() {
+  function addSpacing(input) {
+    input.value = " " + input.value.trim();
+  }
   return (
     <div>
       <div className="technology-wrapper">
@@ -29,6 +32,7 @@ function expert_search() {
                     type="search"
                     id="search"
                     placeholder=""
+                    oninput="addSpacing(this)"
                   />
                   <button type="button" class="btn">
                     <img

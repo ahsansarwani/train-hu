@@ -34,10 +34,10 @@ function achievement() {
         </div>
       </div>
       <div className="list-items-wrapper bg-white">
-        <div className="container-fluid py-2">
+        <div className="container-fluid p-0">
           <div className="row">
             <div className="col-12">
-              <ul className="list-items list-unstyled">
+              <ul className="list-items list-unstyled px-2 mb-0">
                 <li>
                   <span class="label">收费标准:</span> <span>230 元 / 次</span>
                 </li>
@@ -61,34 +61,30 @@ function achievement() {
         </div>
       </div>
       <div className="service-content py-3">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h3>服务内容</h3>
-              <div className="bg-white mt-3 p-3">
-                <p>
-                  科技查新，简称查新，是指查新机构
-                  根据查新委托人提供的需要查证其新颖性
-                  的科学技术内容，按照《科技查新规范》
-                  (国科发计字[2000]544号)操作，经过
-                  文献检索与对比分析，并作出结论。科技
-                  查新是科学研究、产品开发和科技管理等
-                  活动中的一项重要基础工作。 科技查新是文献检索和情报调研相结
-                  合的情报研究工作，它以文献为基础，以
-                  文献检索和情报调研为手段，以检出结果
-                  为依据，通过综合分析，对查新项目的新
-                  颖性进行情报学审查，写出有依据、有分
-                  析、有对比、有结论的查新报告。也就是
-                  说查新是以通过检出文献的客观事实来对
-                  项目的新颖性做出结论。因此，查新有较
-                  严格的年限、范围和程序规定，有查全、
-                  查准的严格要求，要求给出明确的结论
-                  查新结论具有客观性和鉴证性，但不是全
-                  面的成果评审结论。这些都是单纯的文献
-                  检索所不具备的，也有别于专家评审。
-                </p>
-              </div>
-            </div>
+        <div className="container-fluid p-0">
+          <h3 className="ps-3">服务内容</h3>
+          <div className="bg-white mt-3 p-2">
+            <p className="p-2">
+              科技查新，简称查新，是指查新机构
+              根据查新委托人提供的需要查证其新颖性
+              的科学技术内容，按照《科技查新规范》
+              (国科发计字[2000]544号)操作，经过
+              文献检索与对比分析，并作出结论。科技
+              查新是科学研究、产品开发和科技管理等 活动中的一项重要基础工作。
+              科技查新是文献检索和情报调研相结
+              合的情报研究工作，它以文献为基础，以
+              文献检索和情报调研为手段，以检出结果
+              为依据，通过综合分析，对查新项目的新
+              颖性进行情报学审查，写出有依据、有分
+              析、有对比、有结论的查新报告。也就是
+              说查新是以通过检出文献的客观事实来对
+              项目的新颖性做出结论。因此，查新有较
+              严格的年限、范围和程序规定，有查全、
+              查准的严格要求，要求给出明确的结论
+              查新结论具有客观性和鉴证性，但不是全
+              面的成果评审结论。这些都是单纯的文献
+              检索所不具备的，也有别于专家评审。
+            </p>
           </div>
         </div>
       </div>

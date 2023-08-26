@@ -6,13 +6,16 @@ function agriculture() {
       <div className="btm-min">
         <div className="container-fluid py-2">
           <div className="row">
-            <div className="col-4 pe-0 d-flex align-items-center">
-              <div className="agriculture-wrapper">
-                <img src="/images/chevron-left.svg" alt="" />
+            <div className="d-flex align-items-center justify-content-between">
+              <div class="arrow">
+                <div className="agriculture-wrapper">
+                  <img src="/images/chevron-left.svg" alt="" />
+                </div>
               </div>
-            </div>
-            <div className="col-8 P-0 ">
-              <h2 className="text-white mb-0">农科服务</h2>
+              <div class="title">
+                <h2 className="text-white mb-0">农科服务</h2>
+              </div>
+              <div class="arrow"></div>
             </div>
           </div>
         </div>
@@ -48,7 +51,7 @@ function agriculture() {
                 className="d-block w-100"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-md-block">
                 <h5 className="fw-bold display-3">技术服务</h5>
                 <p className="fs-3">聚焦农业技术支持提高服务核心竞争力</p>
               </div>
@@ -59,7 +62,7 @@ function agriculture() {
                 className="d-block w-100"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-md-block">
                 <h5 className="fw-bold display-3">更广泛的农业知识传播</h5>
                 <p className="fs-3">服务广大农民朋友</p>
               </div>
@@ -70,7 +73,7 @@ function agriculture() {
                 className="d-block w-100"
                 alt="..."
               />
-              <div className="carousel-caption d-none d-md-block">
+              <div className="carousel-caption d-md-block">
                 <h5 className="fw-bold display-3">更广泛的农业知识传播</h5>
                 <p className="fs-3">服务广大农民朋友</p>
               </div>

@@ -16,3 +16,7 @@
 .expertise ul li span {
     color: #86909C;
 }
+
+.search-bar input#search {
+    padding-left: 50px;
+}

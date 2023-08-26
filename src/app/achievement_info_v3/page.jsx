@@ -41,7 +41,7 @@ function achievement_info_v2() {
         </div>
       </div>
 
-      <div className="container-fluid bg-white">
+      <div className="container-fluid px-3">
         <div className="row">
           <div className="col-lg-12 p-0">
             <div className="content bg-white">
@@ -68,8 +68,8 @@ function achievement_info_v2() {
         </div>
         <div className="container-fluid p-0">
           <div className="row">
-            <div className="col-12">
-              <h3 className="fs-3">交易公示</h3>
+            <div className="col-12 p-0">
+              <h3 className="fs-3 ms-3">交易公示</h3>
               <div className="content bg-white mt-3">
                 <ul className="list-items list-unstyled">
                   <li>
@@ -93,11 +93,13 @@ function achievement_info_v2() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container-fluid">
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 p-0">
             <h2>成果介绍</h2>
             <img className="w-100 mt-3" src="/images/slide-1.jpg" alt="" />
-            <div className="bg-white mt-4 p-2 pb-5 h-10">
+            <div className="bg-white mt-4 p-2 mb-5 pb-5">
               <p>
                 研发以遥感为核心的耕地资源精准监
                 测技术与系统，实现耕地资源“人-地-作
@@ -123,7 +125,7 @@ function achievement_info_v2() {
 
       <div className="btn-component-fixed-btm bg-white position-fixed p-3 w-100">
         <div className="container-fluid p-0">
-          <button className="btn btn-primary w-100 border-0 p-3 fs-5 fw-light">
+          <button className="btn btn-primary w-100 border-0 p-2 fs-5 fw-light">
             立即咨询
           </button>
         </div>

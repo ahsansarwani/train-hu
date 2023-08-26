@@ -4,14 +4,14 @@ function Posts() {
   return (
     <div className="container-fluid pb-5">
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-6">
           <div className="wrapper-txt-gradient">
-            <h2>
+            <h2 className="mb-0">
               <span className="me-3"></span>科技微视
             </h2>
           </div>
         </div>
-        <div className="col-lg-6 d-flex align-items-center justify-content-end">
+        <div className="col-6 d-flex align-items-center justify-content-end">
           <a
             className="text-decoration-none txt-success d-flex align-items-center gap-2 fs-5"
             href="#"

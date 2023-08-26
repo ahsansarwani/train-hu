@@ -9,16 +9,23 @@
     top: 40%;
 }
 
+@media only screen and (max-width: 767px) {
+    
+
+
 .carousel-indicators button {
     border-radius: 50% !important;
     width: 10px !important;
     height: 10px !important;
 }
 
-.carousel-indicators button.active {
-    width: 26px !important;
-    height: 10px !important;
-    border-radius: 47% !important;
+.carousel-caption {
+    top: 38%;
+    left: 5% !important;
+}
+
+.carousel-caption p {
+    font-size: 20px !important;
 }
 
 .agriculture .carousel-caption {
@@ -38,4 +45,10 @@
 .agriculture .iconbox-img img {
     max-width: 40px;
     max-height: 40px;
+}
+
+.carousel-indicators {
+    margin-bottom: 5px;
+}
+
 }

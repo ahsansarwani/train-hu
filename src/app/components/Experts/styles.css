@@ -1,6 +1,6 @@
 .gradient-experts {
     background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(11, 152, 83, 0.597) 0%,  rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(11, 152, 83, 0.597) 0%, rgb(255 255 255 / 0%) 100%);
 }
 
 .expert-item {

@@ -4,13 +4,18 @@ function achievement_info_v2() {
   return (
     <div className="achievement_info">
       <div className="header-wrapper-achievement bg-white py-3">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6 d-flex justify-content-between">
-              <a className="color-dark-arrow" href="#">
-                <img src="/images/chevron-left.svg" alt="" />
-              </a>
-              <h4 className="mb-0">成果转化</h4>
+            <div className="d-flex align-items-center justify-content-between">
+              <div class="arrow">
+                <a className="color-dark-arrow" href="#">
+                  <img src="/images/chevron-left.svg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h4 className="mb-0">成果转化</h4>
+              </div>
+              <div class="arrow"></div>
             </div>
           </div>
         </div>
@@ -41,7 +46,7 @@ function achievement_info_v2() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 p-0">
             <div className="content">
               <ul className="list-items list-unstyled">
                 <li>
@@ -62,11 +67,11 @@ function achievement_info_v2() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row btm-padding">
           <div className="col-12">
             <h2>成果介绍</h2>
             <img className="w-100 mt-3" src="/images/slide-1.jpg" alt="" />
-            <div className="bg-white mt-4 p-2 pb-5 h-10">
+            <div className="bg-white mt-4 p-2">
               <p>
                 研发以遥感为核心的耕地资源精准监
                 测技术与系统，实现耕地资源“人-地-作
@@ -90,7 +95,7 @@ function achievement_info_v2() {
 
       <div className="btn-component-fixed-btm bg-white position-fixed p-3 w-100">
         <div className="container-fluid p-0">
-          <button className="btn btn-primary w-100 border-0 py-3 fs-5 fw-light">
+          <button className="btn btn-primary w-100 border-0 py-2 fs-5 fw-light">
             立即咨询
           </button>
         </div>
