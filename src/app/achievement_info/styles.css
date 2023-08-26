@@ -2,6 +2,10 @@ body {
     background-color: #F7F8FA;
 }
 
+.btm-padding {
+    padding-bottom: 100px;
+}
+
 .banner-ach {
     background-image: url('/images/banner-ach.png');
     background-color: unset;

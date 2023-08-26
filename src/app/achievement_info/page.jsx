@@ -23,7 +23,7 @@ function achievement_info() {
       </div>
 
       <div className="banner-achievement banner-ach position-relative py-3">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row d-flex align-items-center">
             <div className="col-8 pe-0">
               <div className="image-wrapper-ach d-flex gap-3 align-items-center">
@@ -57,9 +57,9 @@ function achievement_info() {
         </div>
       </div>
 
-      <div className="container-fluid py-2">
+      <div className="container-fluid py-2 ">
         <div className="row">
-          <div className="col-lg-12">
+          <div className="col-lg-12 p-0">
             <div className="content">
               <ul className="list-items list-unstyled">
                 <li>
@@ -76,9 +76,11 @@ function achievement_info() {
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-12">
-            <h2>成果介绍</h2>
+      </div>
+      <div className="container-fluid">
+        <div className="row btm-padding">
+          <div className="col-12 p-0">
+            <h2 className="fs-3 ms-3">成果介绍</h2>
             <div className="bg-white mt-4 p-2">
               <p>
                 研发以遥感为核心的耕地资源精准监
@@ -100,10 +102,9 @@ function achievement_info() {
           </div>
         </div>
       </div>
-
       <div className="btn-component-fixed-btm bg-white position-fixed p-3 w-100">
-        <div className="container">
-          <button className="btn btn-primary w-100 border-0 p-3 fs-5 fw-light">
+        <div className="container-fluid p-0">
+          <button className="btn btn-primary w-100 border-0 p-2 fs-5 fw-light">
             立即咨询
           </button>
         </div>
