@@ -7,13 +7,16 @@ function minimal_achieve() {
       <div className="header-wrapper-achievement bg-white py-3">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-4  p-0">
-              <a className="color-dark-arrow" href="#">
-                <img src="/images/chevron-left.svg" alt="" />
-              </a>
-            </div>
-            <div className="col-4 ">
-              <h4 className="mb-0">新闻资讯</h4>
+            <div className="d-flex justify-content-between">
+              <div class="arrow">
+                <a className="color-dark-arrow" href="#">
+                  <img src="/images/chevron-left.svg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h4 className="mb-0">成果转化</h4>
+              </div>
+              <div class="arrow"></div>
             </div>
           </div>
         </div>

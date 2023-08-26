@@ -6,11 +6,16 @@ function technology() {
       <div className="header-wrapper-achievement bg-white py-3">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 d-flex justify-content-between">
-              <a className="color-dark-arrow" href="#">
-                <img src="/images/chevron-left.svg" alt="" />
-              </a>
-              <h4 className="mb-0">成果转化</h4>
+            <div className="d-flex justify-content-between">
+              <div class="arrow">
+                <a className="color-dark-arrow" href="#">
+                  <img src="/images/chevron-left.svg" alt="" />
+                </a>
+              </div>
+              <div class="title">
+                <h4 className="mb-0">成果转化</h4>
+              </div>
+              <div class="arrow"></div>
             </div>
           </div>
         </div>
