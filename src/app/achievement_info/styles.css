@@ -55,9 +55,8 @@ body {
 }
 
 .list-items li span:first-child {
-    width: 82%;
+    width: 30% !important;
 }
-
 .list-items li span:last-child {
     color: #86909C;
 }

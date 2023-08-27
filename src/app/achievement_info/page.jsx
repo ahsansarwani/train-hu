@@ -81,7 +81,7 @@ function achievement_info() {
         <div className="row btm-padding">
           <div className="col-12 p-0">
             <h2 className="fs-3 ms-3">成果介绍</h2>
-            <div className="bg-white mt-4 p-2">
+            <div className="bg-white mt-4 p-3">
               <p>
                 研发以遥感为核心的耕地资源精准监
                 测技术与系统，实现耕地资源“人-地-作
